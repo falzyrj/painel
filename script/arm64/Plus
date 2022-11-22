@@ -125,7 +125,7 @@ echo -e "\n\033[1;36mVERIFICANDO LINK... \033[0m" ; rm $_Ink/listARM >/dev/null 
         figlet "SSH-PLUS" | lolcat
         echo "SCRIPT EM DESENVOLVIMENTO !!" 
         echo -e "\033[01;31m━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━═━━═━═━═━═━═━━═━═━═━═━━═━═━═━═━═━═━═━━\033[0m"
-        echo -e "\033[1;33mOPA DETECTAMOS..."
+        echo -e "\033[1;33mFOI ENCONTRADO NO SISTEMA.."
         echo -e "\033[01;31m━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━═━━═━═━═━═━═━━═━═━═━═━━═━═━═━═━═━═━═━━\033[0m"
         echo -e "\033[1;33mDADOS DE USUÁRIOS ENCONTRADO!"
         echo ""
