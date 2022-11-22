@@ -1,12 +1,3 @@
-# BEM VINDO 🖕
-
-# SSH-PLUS
-
-# @ALFAINTERNET
-
-*PROJETO EM ANDAMENTO...
-
-
 # Modo de instalação
 # 👇👽👍
 Só joga na máquina e deixar instalar
