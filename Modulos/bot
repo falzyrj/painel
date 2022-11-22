@@ -1,11 +1,9 @@
 #!/bin/bash
 #===================================================
-#   SCRIPT: BOT SSHPLUS MANAGER
-#   DATA ATT: 02 de Jun 2022
-#   DESENVOLVIDO POR: ALFAINTERNET
-#   API SHELLBOT: SHAMAN
-#   CONTATO TELEGRAM: http://t.me/ALFAINTERNET
-#   CANAL TELEGRAM: http://t.me/ALFAINTERNET
+#   SCRIPT: BOT Uny Serve MANAGER
+#   DATA ATT: 22 de NOV 2022
+#   DESENVOLVIDO POR: Falzy
+#   API SHELLBOT: UnsTS
 #===================================================
 [[ ! -d /etc/SSHPlus ]] && exit 0
 [[ ! -d /etc/bot ]] && exit 0
@@ -888,10 +886,10 @@ backup_users() {
 sobremim() {
     local msg
     msg="=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-    msg+="<b>🤖 BOT SSHPLUS MANAGER 🤖</b>\n"
+    msg+="<b>🤖 BOT UNY SERVE MANAGER 🤖</b>\n"
     msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=\n\n"
     msg+="<b>Desenvolvido por:</b> @Telegram\n"
-    msg+="<b>Canal Oficial:</b> @SSHPLUS\n\n"
+    msg+="<b>Canal Oficial:</b>Falzy\n\n"
     msg+="Fui criado com o propósito de fornecer informações e ferramentas para gestão VPN em servidores 🐧 GNU/Linux 🐧.\n\n"
     msg+="<b>Menu:</b> /menu\n"
     ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
