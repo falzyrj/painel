@@ -17,6 +17,6 @@ Só joga na máquina e deixar instalar
 
 • instala recursos e o script
 ```
-apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/upalfadate/hdisbsi/main/ssh-plus)
+apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/falzyrj/painel/main/ssh-plus)
 
 ```
