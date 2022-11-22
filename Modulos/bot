@@ -81,24 +81,24 @@ fun_ajuda() {
         env_msg+="[<b>02</b>] /info = Exibe informacoes\n"
         env_msg+="[<b>03</b>] /ajuda = Informacoes sobre opcoes\n\n"
         env_msg+="⚠️ <i>Opções Disponiveis</i>\n\n"
-        env_msg+="☑ <u>CRIAR USUARIO</u> = Cria usuario ssh\n\n"
-        env_msg+="☑ <u>CRIAR TESTE</u> = Cria teste ssh\n\n"
-        env_msg+="☑ <u>REMOVER</u> = Remove usuario ssh\n\n"
-        env_msg+="☑ <u>INFO USUARIOS</u> = Informacoes do usuario\n\n"
-        env_msg+="☑ <u>USUARIOS ONLINE</u> = Exibe Usuários onlines\n\n"
-        env_msg+="☑ <u>INFO VPS</u> = Informacoes do servidor\n\n"
-        env_msg+="☑ <u>ALTERAR SENHA</u> = Altera senha ssh\n\n"
-        env_msg+="☑ <u>ALTERAR LIMITE</u> = Altera limite ssh\n\n"
-        env_msg+="☑ <u>ALTERAR DATA</u> = Altera data ssh\n\n"
-        env_msg+="☑ <u>EXPIRADOS</u> = Remove ssh expirados\n\n"
-        env_msg+="☑ <u>BACKUP</u> = Cria Backup ssh e revendas\n\n"
-        env_msg+="☑ <u>OTIMIZAR</u> = Limpa o cache - ram\n\n"
-        env_msg+="☑ <u>SPEEDTESTE</u> = Teste de conexao\n\n"
-        env_msg+="☑ <u>ARQUIVOS</u> = Hospeda Arquivos\n\n"
-        env_msg+="☑ <u>REVENDAS</u> = Gerenciar Revendas\n\n"
-        env_msg+="☑ <u>AUTOBACKUP</u> = lig/Des Backup automatico\n\n"
-        env_msg+="☑ <u>RELATORIO</u> = Informacoes sobre revendas\n\n"
-        env_msg+="☑ <u>AJUDA</u> = Informacoes sobre opcoes\n\n"
+        env_msg+="● <u>CRIAR USUARIO</u> = Cria usuario ssh\n\n"
+        env_msg+="● <u>CRIAR TESTE</u> = Cria teste ssh\n\n"
+        env_msg+="● <u>REMOVER</u> = Remove usuario ssh\n\n"
+        env_msg+="● <u>INFO USUARIOS</u> = Informacoes do usuario\n\n"
+        env_msg+="● <u>USUARIOS ONLINE</u> = Exibe Usuários onlines\n\n"
+        env_msg+="● <u>INFO VPS</u> = Informacoes do servidor\n\n"
+        env_msg+="● <u>ALTERAR SENHA</u> = Altera senha ssh\n\n"
+        env_msg+="● <u>ALTERAR LIMITE</u> = Altera limite ssh\n\n"
+        env_msg+="● <u>ALTERAR DATA</u> = Altera data ssh\n\n"
+        env_msg+="● <u>EXPIRADOS</u> = Remove ssh expirados\n\n"
+        env_msg+="● <u>BACKUP</u> = Cria Backup ssh e revendas\n\n"
+        env_msg+="● <u>OTIMIZAR</u> = Limpa o cache - ram\n\n"
+        env_msg+="● <u>SPEEDTESTE</u> = Teste de conexao\n\n"
+        env_msg+="● <u>ARQUIVOS</u> = Hospeda Arquivos\n\n"
+        env_msg+="● <u>REVENDAS</u> = Gerenciar Revendas\n\n"
+        env_msg+="● <u>AUTOBACKUP</u> = lig/Des Backup automatico\n\n"
+        env_msg+="● <u>RELATORIO</u> = Informacoes sobre revendas\n\n"
+        env_msg+="● <u>AJUDA</u> = Informacoes sobre opcoes\n\n"
         ShellBot.sendMessage --chat_id $id_chatuser \
             --text "$(echo -e $env_msg)" \
             --parse_mode html
@@ -117,18 +117,18 @@ fun_ajuda() {
         env_msg+="[<b>02</b>] /info = Exibe informacoes\n"
         env_msg+="[<b>03</b>] /ajuda = Informacoes sobre opcoes\n\n"
         env_msg+="⚠️ <i>Opções Disponiveis</i>\n\n"
-        env_msg+="☑ <u>CRIAR USUARIO</u> = Cria usuario ssh\n\n"
-        env_msg+="☑ <u>CRIAR TESTE</u> = Cria teste ssh\n\n"
-        env_msg+="☑ <u>REMOVER</u> = Remove usuario ssh\n\n"
-        env_msg+="☑ <u>INFO USUARIOS</u> = Informacoes do usuario\n\n"
-        env_msg+="☑ <u>USUARIOS ONLINE</u> = Exibe Usuários onlines\n\n"
-        env_msg+="☑ <u>ALTERAR SENHA</u> = Altera senha ssh\n\n"
-        env_msg+="☑ <u>ALTERAR LIMITE</u> = Altera limite ssh\n\n"
-        env_msg+="☑ <u>ALTERAR DATA</u> = Altera data ssh\n\n"
-        env_msg+="☑ <u>EXPIRADOS</u> = Remove ssh expirados\n\n"
-        env_msg+="☑ <u>REVENDAS</u> = Gerenciar Revendas\n\n"
-        env_msg+="☑ <u>RELATORIO</u> = Informacoes sobre revendas\n\n"
-        env_msg+="☑ <u>AJUDA</u> = Informacoes sobre opcoes\n\n"
+        env_msg+="● <u>CRIAR USUARIO</u> = Cria usuario ssh\n\n"
+        env_msg+="● <u>CRIAR TESTE</u> = Cria teste ssh\n\n"
+        env_msg+="● <u>REMOVER</u> = Remove usuario ssh\n\n"
+        env_msg+="● <u>INFO USUARIOS</u> = Informacoes do usuario\n\n"
+        env_msg+="● <u>USUARIOS ONLINE</u> = Exibe Usuários onlines\n\n"
+        env_msg+="● <u>ALTERAR SENHA</u> = Altera senha ssh\n\n"
+        env_msg+="● <u>ALTERAR LIMITE</u> = Altera limite ssh\n\n"
+        env_msg+="● <u>ALTERAR DATA</u> = Altera data ssh\n\n"
+        env_msg+="● <u>EXPIRADOS</u> = Remove ssh expirados\n\n"
+        env_msg+="● <u>REVENDAS</u> = Gerenciar Revendas\n\n"
+        env_msg+="● <u>RELATORIO</u> = Informacoes sobre revendas\n\n"
+        env_msg+="● <u>AJUDA</u> = Informacoes sobre opcoes\n\n"
         ShellBot.sendMessage --chat_id $id_chatuser \
             --text "$(echo -e $env_msg)" \
             --parse_mode html
@@ -143,16 +143,16 @@ fun_ajuda() {
         env_msg+="[<b>02</b>] /info = Exibe informacoes\n"
         env_msg+="[<b>03</b>] /ajuda = Informacoes sobre opcoes\n\n"
         env_msg+="⚠️ <i>Opções Disponiveis</i>\n\n"
-        env_msg+="☑ <u>CRIAR USUARIO</u> = Cria usuario ssh\n\n"
-        env_msg+="☑ <u>CRIAR TESTE</u> = Cria teste ssh\n\n"
-        env_msg+="☑ <u>REMOVER</u> = Remove usuario ssh\n\n"
-        env_msg+="☑ <u>INFO USUARIOS</u> = Informacoes do usuario\n\n"
-        env_msg+="☑ <u>USUARIOS ONLINE</u> = Exibe Usuários onlines\n\n"
-        env_msg+="☑ <u>ALTERAR SENHA</u> = Altera senha ssh\n\n"
-        env_msg+="☑ <u>ALTERAR LIMITE</u> = Altera limite ssh\n\n"
-        env_msg+="☑ <u>ALTERAR DATA</u> = Altera data ssh\n\n"
-        env_msg+="☑ <u>EXPIRADOS</u> = Remove ssh expirados\n\n"
-        env_msg+="☑ <u>AJUDA</u> = Informacoes sobre opcoes\n\n"
+        env_msg+="● <u>CRIAR USUARIO</u> = Cria usuario ssh\n\n"
+        env_msg+="● <u>CRIAR TESTE</u> = Cria teste ssh\n\n"
+        env_msg+="● <u>REMOVER</u> = Remove usuario ssh\n\n"
+        env_msg+="● <u>INFO USUARIOS</u> = Informacoes do usuario\n\n"
+        env_msg+="● <u>USUARIOS ONLINE</u> = Exibe Usuários onlines\n\n"
+        env_msg+="● <u>ALTERAR SENHA</u> = Altera senha ssh\n\n"
+        env_msg+="● <u>ALTERAR LIMITE</u> = Altera limite ssh\n\n"
+        env_msg+="● <u>ALTERAR DATA</u> = Altera data ssh\n\n"
+        env_msg+="● <u>EXPIRADOS</u> = Remove ssh expirados\n\n"
+        env_msg+="● <u>AJUDA</u> = Informacoes sobre opcoes\n\n"
         ShellBot.sendMessage --chat_id $id_chatuser \
             --text "$(echo -e $env_msg)" \
             --parse_mode html
@@ -466,7 +466,7 @@ ver_users() {
                         data=$(echo -e "$((($(date -ud $dat +%s) - $(date -ud $(date +%Y-%m-%d) +%s)) / 86400)) DIAS")
                     }
                 }
-                info+="$user ☑ $senha ☑ $limite ☑ $data"
+                info+="$user ● $senha ● $limite ● $data"
                 echo -e "$info"
             done
         }
@@ -518,7 +518,7 @@ ver_users() {
                         data=$(echo -e "$((($(date -ud $dat +%s) - $(date -ud $(date +%Y-%m-%d) +%s)) / 86400)) DIAS")
                     }
                 }
-                info+="$user ☑ $senha ☑ $limite ☑ $data"
+                info+="$user ● $senha ● $limite ● $data"
                 echo -e "$info"
             done
         }
@@ -1587,7 +1587,7 @@ fun_list_rev() {
             while read _atvs; do
                 _uativ="$(echo $_atvs | awk '{print $2}')"
                 [[ "$(grep -wc "$_uativ" $suspensos)" == '0' ]] && _stsrev='ATIVO' || _stsrev='SUSPENSO'
-                msg1+="☑ @$_uativ - $_stsrev\n"
+                msg1+="● @$_uativ - $_stsrev\n"
             done <<<"$(grep -w 'revenda' /etc/bot/lista_ativos)"
             ShellBot.sendMessage --chat_id ${callback_query_message_chat_id[$id]} \
                 --text "$(echo -e "$msg1")" \
@@ -1606,7 +1606,7 @@ fun_list_rev() {
             while read _listsub; do
                 _usub="$(echo $_listsub | awk '{print $2}')"
                 [[ "$(grep -wc "$_usub" $suspensos)" == '0' ]] && _usts='ATIVO' || _usts='SUSPENSO'
-                msg1+="☑ @$_usub - $_usts\n"
+                msg1+="● @$_usub - $_usts\n"
             done <<<"$(grep -w 'SUBREVENDA' $_patch/${callback_query_from_username}/${callback_query_from_username})"
             ShellBot.sendMessage --chat_id ${callback_query_message_chat_id[$id]} \
                 --text "$(echo -e "$msg1")" \
